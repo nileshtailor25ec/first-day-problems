@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int c;
+float f;
+cout << "enter temperature in celsius:";
+cin >> c;
+f = ( c * 9 / 5 ) + 32;
+cout << "result is=" << f ;
+return 0;
+}
+
+Result-enter temperature in celsius:55
+result is=131
