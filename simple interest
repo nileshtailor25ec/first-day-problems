@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    float p,r,t, si;
+    cout << "enter principal amount: ";
+    cin >> p;
+    cout << "enter rate of interest: ";
+    cin >> r;
+    cout << "enter time(in years): ";
+    cin >> t;
+    si=(p * r * t) / 100;
+    cout << "Simple Interest is: " << si << endl;
+    return 0;
+}
+
+RESULT-enter principal amount: 60,000
+enter rate of interest: 2
+enter time(in years): 5
+Simple Interest is: 6000
