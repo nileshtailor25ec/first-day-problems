@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int length ,width;
+cout << "enter length and width of rectangle:";
+cin >> length >> width;
+cout << "area of rectangle is=" << length*width;
+return 0;
+}
+
+RESULT-enter length and width of rectangle:12
+6
+area of rectangle is=72
