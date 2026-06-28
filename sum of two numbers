@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout << "enter first number :";
+cin >> a;
+cout << "enter second number:";
+cin >> b;
+cout << "sum is=" << a+b << endl;
+return 0;
+}
+
+RESULT-enter first number : 45
+       enter second number: 34
+       sum is=79
